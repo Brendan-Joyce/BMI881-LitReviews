@@ -13,4 +13,4 @@ There is no doubt as to the efficacy and quality of Snow’s work on display in 
 3.	Plague was often mythologized as the source of deadly disease outbreaks even centuries after its disappearance from Brittain. What were the social and cultural elements that prolonged the public’s memory beyond many generations?
 
 
-Gelman, Andrew, Cristian Pasarica, and Rahul Dodhia. "Let's practice what we preach: turning tables into graphs." The American Statistician 56.2 (2002): 121-130.
+Snow, John. "On the mode of communication of cholera." Edinburgh medical journal 1.7 (1856): 668.
