@@ -1,0 +1,23 @@
+# 9/30 - Hernan ~ Observational Studies Analyzed Like Randomized Experiments: An Application to Postmenopausal Hormone Therapy and Coronary Heart Disease
+## Literature Review
+Hernan Et al.’s work in “Observational Studies Analyzed Like Randomized Experiments: An Application to Postmenopausal Hormone Therapy and Coronary Heart Disease” is a retrospective analysis of observational healthcare data to understand the impact of hormone therapy on CHD risk in postmenopausal women from the longitudinal Nurse’s Health Study (NHS) cohort. Their work served as a follow-up to address discrepancies between two separate longitudinal studies, one on the NHS dataset and the other conducted by the Women’s Health Initiative. Through the application of more robust statistical analyses of the data and a fine grained analysis of CHD risk under different survival time limits, they propose a time varying relationship between CHD risk and duration of hormone treatment that suggests risk reaches its peak early into hormone therapy treatment. In addition to this article, we also read responses authored by epidemiologists Stampfer, Hoover, and Prentice regarding the quality and correctness of the results proposed in Hernan’s work. They identify methodological shortcomings of observational analysis and Hernan’s assumptions regarding treatment adherence that could harm the correctness of the original paper’s findings.
+
+
+I find Hernan’s analysis in this paper to be mostly reasonable, if not a bit overstated. His approaches largely reflect some of the directions taken by epidemiologists working with observational data today. Many of the limitations called out by his contemporaries broadly reflect limitations in the analysis of longitudinal retrospective/observational data. With regards to Hernan’s methods, I broadly agree with they have established their cohorts well and appreciate the work they put into faithfully reflecting the original WHI study; however, I disagree with his opinions regarding the lack of importance of considering intention to treat (ITT) when conducting analyses on this kind of data. Additionally, despite their adherence adjustment using inverse probability weighting, I think their findings may still be confounded by survivor bias due thanks in part to the mode of data colletion. With regards to the additional statements we reviewed, I find that Hoover and Prentice offer great feedback that both reaffirm some of the issues I had with the original manuscript while also providing insights on how to address these biases. I find Stampfer’s response to be less constructive and a bit regressive. I find Hernan’s response to these critiques to be somewhat heated but still balanced enough to maintain credibility while their collaborator’s response feels more neutral regarding the experimental process and the value therein. Overall, I appreciate the work Hernan and their coauthors put into this manuscript and the discussion that came out of it. Exploration and critique of statistical methods used to address the shortcomings of observational analysis is critical towards recognizing its future value.
+
+## Questions:
+1. Many of the methods called out by critics of Hernan’s work have become integral elements of clinical trial emulation studies today. What, besides the increased availability of observational cohort data, has surfaced in the last 15 years to improve researcher’s confidence in longitudinal observational data?
+2. Is there a common etiquette for providing criticism/feedback on papers in academia? If so, what are often the consequences for violating that etiquette 
+3. What waves did this paper make prior to its publication that elicited such an immediate and profound response? Was it the primary source/influence for the cessation of the NHS study’s data collection?
+
+Hernán, Miguel A., et al. "Observational studies analyzed like randomized experiments: an application to postmenopausal hormone therapy and coronary heart disease." Epidemiology 19.6 (2008): 766-779.
+
+Hoover, Robert N. "The sound and the fury: was it all worth it?." Epidemiology 19.6 (2008): 780-782.
+
+Stampfer, Meir J. "ITT for observational data: worst of both worlds?." Epidemiology 19.6 (2008): 783-784.
+
+Prentice, Ross L. "Data analysis methods and the reliability of analytic epidemiologic research." Epidemiology 19.6 (2008): 785-788.
+
+Hernán, Miguel A., and James M. Robins. "Authors' response, part I: observational studies analyzed like randomized experiments: best of both worlds." Epidemiology 19.6 (2008): 789-792.
+
+Willett, Walter C.a; Manson, JoAnn E.b; Grodstein, Francinec. Author's Response, Part II. Epidemiology 19(6):p 793, November 2008.
