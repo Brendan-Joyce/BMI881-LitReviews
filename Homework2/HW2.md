@@ -60,10 +60,12 @@ $precision * (1 - sp) = r * (sn - precision * sn + precision * (1 - sp))$
 
 $r = precision * (1 - sp) / (sn - precision * sn + precision * (1 - sp))$
 
-When specificity is .712, sensitivity .796, and precision .443, the rate of the condition is 22.35%
+Diagnosis only: When specificity is .712, sensitivity .796, and precision .443, the rate of the condition is 22.35%
 
-When specificity is .784, sensitivity .817, and precision .488, the rate of the condition is 20.13%
+Medication only: When specificity is .784, sensitivity .817, and precision .488, the rate of the condition is 20.13%
 
-When specificity is .823, sensitivity .831, and precision .571, the rate of the condition is 22.09%
+Medication and Diagnosis only: When specificity is .823, sensitivity .831, and precision .571, the rate of the condition is 22.09%
 
 In the context of this paper it is fairly clear that their reported specificity, sensitivity, and precision values are based on their 1:4 matched cohort rather than the general patient population. This is normally considered bad or misleading practice, especially when trying to advertise a model's capability to be applied to a more general healthcare cohort. Since this paper's purpose is to argue for the model's deployment, I feel that reporting these values instead of those collected from running these models on a general population rate based test set means that the performance reported in Table 2 does not produce a compelling case for the model. This alongside their poor matching criteria merely continues to suggest that their evaluation technique is overfitting to general risk factors like age and healthcare interaction complexity rather than identifying truly discernable factors that could see reasonable use in a health system.
+
+As an additional note, I noticed that the imputed rates based on the provided evaluation metrics are not all the same. I did some tests with rounding values and found that the differences do not come from rounding error on the metrics. This signals to me that there might be some filtering steps when working with the medication-only group (possibly removing patients without any medications) that is resulting in a difference comparison. Another example of poor reporting quality.
