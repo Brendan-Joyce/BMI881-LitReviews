@@ -41,3 +41,27 @@ $p = .99991$
 Specificity and Sensitivity must be **99.991%** to achieve a precision of 50%
 
 3.	Comment on these results in relation to the precision values provided in Table 2 of Wang et al. (2019).
+
+Let r be the rate of disease.
+
+$sensitivity = sn = TP / r$
+
+$r * sn = TP$
+
+$1 - specificity = 1 - sp = FP/(1 - r)$
+
+$(1 - sp)(1 - r) = FP$
+
+$precision = r * sn / (r * sn + (1 - sp)(1 - r))$
+
+$precision * r * sn + precision * (1 - sp) - precision * (1 - sp) * r = r * sn$
+
+$precision * (1 - sp) = r * (sn - precision * sn + precision * (1 - sp))$
+
+$r = precision * (1 - sp) / (sn - precision * sn + precision * (1 - sp))$
+
+When specificity is .712, sensitivity .796, and precision .443, the rate of the condition is 22.35%
+
+When specificity is .784, sensitivity .817, and precision .488, the rate of the condition is 20.13%
+
+When specificity is .823, sensitivity .831, and precision .571, the rate of the condition is 22.09%
