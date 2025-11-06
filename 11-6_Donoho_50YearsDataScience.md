@@ -1,0 +1,22 @@
+# 11/5 - Donoho ~ 50 Years of Data Science
+## Literature Review
+Dr. Donoho’s metareview of analytical scientific practice and progress in “50 years of Data Science” focuses on the foundation and further development of the field of Data Science. His paper starts by characterizing the data science movement as one that focuses on the interdisciplinary space between the application of statistics and computational methods for the analysis and preparing of big datasets. To balance his viewpoints, he addresses the concerns that such a field merely represents the rebranding of such techniques from researchers, such as Dr. Broman, in the field of computational statistics. Further in the paper, he discusses the key foundation for the expansion of the field of data science in the decades prior to publishing this piece. Of particular note, he calls out the importance of the availability of data and its study, through an explanation of the Common Task Framework, and 6 pillars data science research and practice. Ultimately, he prescribes a hopeful tone for the future of data science research and application going forward, but escalates the importance of establishing proper educational foundations in classical statistics and computational literacy for the training the new generation of data scientists.
+	
+
+I will preface this by stating that I do not see data science as its own field, but rather as interdisciplinary field that exists at the interface between statistical analysis and the fields that generate the data used for analysis. To this effect, I do believe that data science exists when qualified with the field those methods support is clearly defined. With that out of the way, I find Dr. Donoho’s description of the field as he perceives it in 2017 to be apt and reasonable, albeit a little too hopeful for the time. While I do enjoy a lot of the discussion regarding the history of data science and the reasons for its rise in popularity in the early 21st century, I think the most compelling discussion piece from Donoho’s paper is the focus on what training future Data Scientists should look like going forward. I agree that the field of data science has moved in inconsistent ways across the academic domains, often making the material that data science degree holders learn feel out of alignment with the demands of private industry unless they study data science explicitly within the confines of the industries they plan to target. However, unlike Donoho, who believes that with more careful degree organization and explicit focus on the core tenants of data science these foundational skills can be taught, I remain skeptical of the ability to appropriately align industry and academic interests in data science. This largely comes from my prior experience in industry data science where I saw first hand that the lack of standards in the field of medicinal data coding led to diverse data organization solutions requiring significant training to even begin to apply common data science practices. Medicine is a field with more consistency than most, and even then the skills to analyze one EHR dataset does not directly translate to the ability to analyze another. I agree with Donoho in that data science skills and training must be improved, but I still believe that without standards for data storage and structure, there are very real limits on what can be taught before moving to industry.
+
+## Questions:
+1.	What do you believe are the core elements of data science/statistical training we should be providing to the next generation of industry data science engineers?
+2.	Do you believe that the use of LLMs by the younger generation will worsen data science literacy by regressing everyone’s approach towards simple common methods or improve it by potentially providing a “built in tutor” for more obscure data science topics?
+3.	Data science is a conversation between those that produce the data and those that analyze it. What percentage of that conversation do you believe should be focused on each of the following:
+  a.	Classical statistics
+  b.	Data visualization
+  c.	Data preparation
+  d.	Data storage and transmission
+  e.	Data acquisition
+4.	How much do you think this breakdown should vary by the field that produces the corresponding data?
+
+
+
+
+Donoho, David. "50 years of data science." Journal of Computational and Graphical Statistics 26.4 (2017): 745-766.
