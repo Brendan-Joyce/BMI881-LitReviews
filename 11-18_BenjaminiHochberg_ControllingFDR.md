@@ -1,0 +1,15 @@
+# 11/18 ~ Benjamini & Hochberg ~ Controlling the False Discovery Rate: a practical and powerful approach to multiple testing
+## Findings
+
+Statisticians Benjamini and Hochberg’s work in “Controlling the False Discovery Rate: a practical and powerful approach to multiple testing” represents a landmark advancement in restructuring the way that we approach multiple hypothesis correction. The paper’s premise is simple, instead of considering the traditional Family Wise Error Rate (FWER), the probability that all deviations from the null hypothesis are false rejections, they propose the use of the False Discovery Rate (FDR), the proportion of rejected null hypotheses that are potentially false rejections. They propose that by leveraging a multiple hypothesis correction method constructed with FDR in mind, they can avoid the strict rejection criteria of the traditional FWER methods while preserving effective multiple hypothesis control. They then propose an FDR correction method based on ranking p statistics and considering their rank relative to one and other and their target significance threshold. To show the power of their updated methods they examine the effectiveness of their correction methods in comparison to the Bonferroni FWER correction method through simulation studies.
+
+
+The sheer value that this paper provides can be seen in the way that Benjamini and Hochberg’s work has been immortalized in the data analysis practices of data scientists and statisticians alike. I believe that this largely comes from two main features of their paper. Firstly, their focus on establishing a statistical basis as the foundation for the design of their multiple hypothesis adjustment lends credibility to their approach while providing a commonsense framework regarding its strengths and validity in each situation. Secondly, their proof that the approach they outline provides statistical control for multiple hypotheses makes their approach directly applicable towards broader research efforts in observational science. Overall, this paper provides a clear, simple to implement solution that improves discoverability in statistical modeling experiments related to observational data.
+
+## Questions
+1.	While these contributions are statistically grounded, they open the door for potentially reporting even more erroneous findings. What are the ethical implications of contributions like these in the statistics field? 
+2.	If I discover an estimator that displays mathematical statistical control properties with a less strict p value requirement than what Benjamini and Hochberg described, would that be met with interest or disdain from the broader modeling community?
+3.	I only heard about Benjamini-Hochberg adjustments when I started graduate school, does this statistic have poor penetrance outside of academia?
+
+
+Benjamini, Yoav, and Yosef Hochberg. "Controlling the false discovery rate: a practical and powerful approach to multiple testing." Journal of the Royal statistical society: series B (Methodological) 57.1 (1995): 289-300.
