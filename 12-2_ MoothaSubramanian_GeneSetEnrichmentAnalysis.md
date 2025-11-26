@@ -6,5 +6,7 @@
 ## Questions
 1.	The GSEA method is a startlingly simple approach that leverages computational methods mixed with biological foundations to produce a modern cornerstone of bioinformatics analysis. Given the increase in the number of bioinformaticians today, do you believe that there are simple methods still left to be discovered today?
 2.	These papers were released in the early 2000s and have seen consistent use and popularity since then. Modern methods that leverage machine learning driven approaches do not see anywhere near the same momentum as these methods did upon release. Given the challenges with setting up and executing machine learning tools, do you think it is wise to pursue machine learning methods over these simple classical analysis methods?
+
 Mootha, Vamsi K., et al. "PGC-1α-responsive genes involved in oxidative phosphorylation are coordinately downregulated in human diabetes." Nature genetics 34.3 (2003): 267-273.
+
 Subramanian, Aravind, et al. "Gene set enrichment analysis: a knowledge-based approach for interpreting genome-wide expression profiles." Proceedings of the National Academy of Sciences 102.43 (2005): 15545-15550.
